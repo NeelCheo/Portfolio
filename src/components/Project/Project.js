@@ -1,12 +1,13 @@
 import React from 'react';
 import './Project.css'; 
-function Project({ title, img, deployedUrl, repoUrl }) {
+
+function Project({ title, imageSrc, deployedUrl, githubUrl }) {
   return (
     <div className="project">
       <h3>{title}</h3>
-      <img src={img} alt={title} />
+      <img src={imageSrc} alt={title} />
       <div>
-        <a href={deployedUrl}>Live Demo</a> | <a href={repoUrl}>GitHub Repo</a>
+        <a href={deployedUrl}>Live Demo</a> | <a href={githubUrl}>GitHub Repo</a>
       </div>
     </div>
   );
