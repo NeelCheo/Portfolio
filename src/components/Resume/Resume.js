@@ -1,22 +1,25 @@
 import React from 'react';
-import './Resume.css'; // Create this file to add styles
+import './Resume.css';
 
 function Resume() {
+  const proficiencies = [
+    'JavaScript',
+    'HTML & CSS',
+    'React.js',
+    'Node.js',
+    'MySQL',
+    'MongoDB'
+  ];
+
   return (
     <section className="resume">
       <h2>Resume</h2>
-      <a href="./Temp_resume.pdf" target="_blank" rel="noopener noreferrer">Download my resume</a>
+      <a href="./Temp_resume.pdf" download>Download my Resume</a>
       <h3>Proficiencies</h3>
       <ul>
-        <li>JaveScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-        <li>MySQL</li>
-        <li>MongoDB</li>
-        <li>React</li>
-        <li>PWA/WebPacks</li>
-        {/* Repeat the li for each of your proficiencies */}
+        {proficiencies.map((proficiency, index) => 
+          <li key={index}>{proficiency}</li>
+        )}
       </ul>
     </section>
   );

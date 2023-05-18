@@ -1,0 +1,12 @@
+.header {
+    background-color: #1a1a1a; /* Darker background color */
+    padding: 20px;
+    color: #f0f0f0; /* Lighter text color */
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
