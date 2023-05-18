@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navigation a {
+    color: #61dafb; /* Blue color for inactive links */
+    text-decoration: none;
+  }
+  
+  .navigation a.active {
+    color: #f0f0f0; /* Lighter color for active link */
+  }
+  

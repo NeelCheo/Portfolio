@@ -1,0 +1,15 @@
+.project {
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project a {
+    color: #f0f0f0;
+  }
+  

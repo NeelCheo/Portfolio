@@ -1,0 +1,23 @@
+.resume {
+    padding: 20px;
+    color: #f0f0f0;
+    background-color: #1a1a1a;
+  }
+  
+  .resume h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .resume a {
+    color: #f0f0f0;
+  }
+  
+  .resume ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .resume ul li {
+    margin-bottom: 5px;
+  }
+  
