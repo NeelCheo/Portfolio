@@ -22,7 +22,7 @@ function Resume() {
             <h3>Proficiencies</h3>
             <ul>
               {proficiencies.map((proficiency, index) => 
-                <li key={index} className="text-dark fs-3">{proficiency}</li>
+                <li key={index} className="fs-3">{proficiency}</li>
               )}
             </ul>
           </Col>
