@@ -12,7 +12,7 @@ function Resume() {
   ];
 
   return (
-    <section className="resume">
+    <section className="resume" id="resume">
       <h2>Resume</h2>
       <a href="./Temp_resume.pdf" download>Download my Resume</a>
       <h3>Proficiencies</h3>

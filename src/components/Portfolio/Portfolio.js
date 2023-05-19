@@ -5,7 +5,7 @@ import sampleImage from './sample.jpg';
 
 function Portfolio() {
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portfolio">
       <h2>Portfolio</h2>
       <Project title="Weather Forcast" imageSrc={sampleImage} deployedUrl="https://neelcheo.github.io/weather_forcast/" githubUrl="https://github.com/NeelCheo/weather_forcast" />
       <Project title="Social Network API" imageSrc={sampleImage} deployedUrl="https://github.com/NeelCheo/social_network_API" githubUrl="https://github.com/NeelCheo/social_network_API" />

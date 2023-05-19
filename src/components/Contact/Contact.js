@@ -10,7 +10,7 @@ function Contact() {
   }
 
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" name="name" placeholder="Name" required />

@@ -1,15 +1,14 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 
 function Navigation() {
   return (
     <nav className="navigation">
       <ul>
-        <li><NavLink exact to="/" activeClassName="active">About Me</NavLink></li>
-        <li><NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink></li>
-        <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
-        <li><NavLink to="/resume" activeClassName="active">Resume</NavLink></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
       </ul>
     </nav>
   );
