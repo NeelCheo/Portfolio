@@ -4,7 +4,7 @@ import './Project.css';
 
 function Project({ title, imageSrc, deployedUrl, githubUrl }) {
   return (
-    <Card className="mb-4 fs-3">
+    <Card className="mb-4 fs-3 bg-white text-dark p-3 proficiency">
       <Card.Img variant="top" src={imageSrc} alt={title} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>

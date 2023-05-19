@@ -13,10 +13,10 @@ function About() {
           </Col>
         </Row>
         <Row>
-          <Col sm={6} >
+          <Col sm={6}>
             <Image src={portraitImage} alt="Neel Chakravartty" className="portrait" fluid />
           </Col>
-          <Col sm={6} className="d-flex align-items-center fs-3" >
+          <Col sm={6} className="d-flex align-items-center fs-2" >
             <p>
               I am a full-stack web developer and Environmental Engineer who looks forward to learning and expanding my skill thought jobs and research projects
             </p>

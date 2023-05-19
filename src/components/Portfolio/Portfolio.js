@@ -9,7 +9,7 @@ function Portfolio() {
     <section className="portfolio" id="portfolio fs-3">
       <Container>
         <Row>
-          <Col xs={12}>
+          <Col xs={12} className="text-white">
             <h2>Portfolio</h2>
           </Col>
         </Row>
